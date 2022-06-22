@@ -1,0 +1,230 @@
+
+.header{
+  height: 2.8em;
+  background: white;
+  display: flex;
+  justify-content:flex-end ;
+  align-items: center;
+}
+#logoHorizontal{
+  display: none;
+}
+#menuIcon{
+margin-top: 9px;
+width: 2em;
+}
+#logoMambaSmoke{
+position: absolute;
+width: 2.5em;
+left: 47%;
+margin-top: 4px;
+}
+.navbar{
+  padding-bottom: 5px;
+}
+.navbar ul li {
+  display: none;
+}
+.Home{
+  padding-top: 7em;
+  background-image: linear-gradient(to bottom, #3E0250, #1A0020);
+}
+#podNikbar{
+  width: 30vw;
+  margin-left: 35vw;
+}
+.firstPage h1{
+  font-family: 'Montserrat';
+  font-weight: regular;
+  color: #DBDBDD;
+  font-size: 2.5em;
+  text-align: center;
+}
+.firstPage strong{
+  font-weight: bolder;
+}
+.txtBotao{
+  text-decoration: none;
+  color: #AB4BFF;
+  font-size: 3em;
+  }
+  .container{
+    margin-top:2em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.botao{
+  border-color: #A058FF;
+  border-radius: 25px;
+  width: 20em;
+  height: 4em;
+  background: rgba(255,255,255,0.1);
+}
+.botao:hover {
+  background: rgba(64,3,143,0.2);
+}
+.comprovaçãoSocial{
+  color: #AB4BFF;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 5em;
+}
+.oQueE{
+  background-color: #1A0020;
+}
+
+body p{
+  text-align: center;
+  font-size: 1.5em;
+  color:  #DBDBDD;
+  text-align: justify;
+  padding: 1em;
+}
+
+.Vantagens{
+  background-color: #893AC5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7em;
+  padding-top: 5em;
+}
+.vantagensText ul{
+  font-size: 1.2em;
+  text-align: left;
+  list-style: url("../assets/checked.png");
+}
+body h3{
+  text-align: center;
+  font-size: 2.5em;
+  color:  #DBDBDD;
+  margin-bottom: 0.5em;
+}
+.form{
+  background-color: #1C0027;
+  color: #DBDBDD;
+  padding-top: 4em;
+}
+.formzinho{
+  width: 80vw;
+  margin-left: 8vw;
+}
+body form {
+
+  width: 100%;
+  font-size: 1.5em;
+  color:  #DBDBDD;
+  padding-top: 1em;
+}
+body input{
+  margin-bottom: 2em;
+  margin-top: 1em;
+  width: 100%;
+  height: 2em;
+  font-size: 0.8em;
+}
+.button button{
+  border-color: white;
+  border-radius: 25px;
+  font-size: 1.2em;;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+.button{
+  margin-left: auto;
+  width: 5em;
+  height: 2em;
+  padding-bottom: 1em;
+}
+#arrowCima{
+  position: sticky;
+  z-index: 99;
+  margin-left: 90%;
+  padding-right:20px;
+  padding-bottom: 25px;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1em;
+  }
+  .navbar ul li {
+    display: inline;
+    font-size: 1.2em;
+    margin-left: 1em;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar ul li button {
+    border-color: black;
+    border-radius: 25px;
+    font-size: 1.2em;
+  }
+  #CTAinicial{
+    color: black;
+  }
+  .navbar ul{
+    margin-right: 1em;
+  }
+  .navbar ul li a:hover{
+    color: #A058FF;
+    font-weight: bold;
+  }
+  .navbar ul li button:hover {
+    background-color:  #A058FF;
+  }
+  #menuIcon{
+    display:  none;
+  }
+  #logoMambaSmoke{
+  display: none;
+  }
+  #logoHorizontal{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Home{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:2em;
+  }
+  #podNikbar{
+    width: 15em;
+    margin:0;
+    margin-bottom: 8em;
+  }
+  .vantagensText ul{
+    display: inline-flex;
+    justify-content: center;
+    gap: 2em;
+    margin-left: 1em;
+  }
+  .Vantagens{
+    height: 80px;
+    padding: 10px;
+    }
+    .text{
+      display: flex;
+      justify-content: center;
+      margin-left: 15em;
+      margin-right: 10em;
+      gap:3em;
+      padding-bottom: 3em;
+    }
+    #arrowCima{
+      display: none;
+    }
+}
